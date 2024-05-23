@@ -26,6 +26,9 @@ nav ul li{
     list-style: none;
     margin-left:15px ;
 }
+nav ul li, button, svg:hover{
+    color:rgb(47, 126, 47);
+}
 p{
     margin: 20px 170px;
     line-height: 1.3rem;
@@ -72,4 +75,58 @@ button{
 }
 .icon a{
     color: black;
+}
+@media(max-width:780px) {
+    * {
+            text-align: center;
+            font-family: sans-serif;
+            margin: 5px 2px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 80px;
+        }
+        .logo {
+            font-size: medium;
+            margin-top: 10px;
+            font-style: italic;
+            font-family: system-ui, cursive;
+        }
+    
+        nav ul li {
+            list-style: none;
+            margin-right: 1px;
+            font-size: x-small;
+        }
+    h1{
+        font-size: large;
+        word-spacing: 1.0px;
+    }
+    strong{
+       margin:0px 5px;
+    }
+        p {
+            margin: 20px 5px;
+            line-height: 1.3rem;
+        }
+        .textarea {
+            margin: 50px 10px;
+            padding: 5px 0px;
+            box-shadow: 0px 1px 2px 1px gray;
+            border-radius: 3px;
+        }
+        form {
+            display: flex;
+            justify-content: space-between;
+            width: 92%;
+            border: 1px solid gray;
+            border-radius: 4px;
+            margin: 10px 15px;
+            padding-right: 3px;
+        }
+        .icon a {
+            color: black;
+            margin: 0px 10px;
+        }
 }
